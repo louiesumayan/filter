@@ -1,0 +1,67 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  display: flex;
+  padding: 50px;
+}
+
+.leftMenu {
+  flex: 1;
+}
+
+.search {
+  padding: 10px;
+  width: 200px;
+  border: 1px solid gray;
+}
+
+h1 {
+  color: #555;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.cats {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cat {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.content {
+  flex: 4;
+}
+
+.products {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.product {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  width: 150px;
+  height: 250px;
+  object-fit: contain;
+}
+
+.name {
+  font-weight: lighter;
+}
+
+.priceText {
+  font-weight: bold;
+}
